@@ -107,3 +107,9 @@ h1 {
     float: right;
     cursor: pointer;
 }
+.deck .card.rotate180{
+    transform: rotateY(180deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s ;
+    transition: all 1s ;
+}
